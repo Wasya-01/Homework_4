@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4lv</title>
+    <style>
+        body{background-color: black;}
+        .box {display: block;
+            margin: 200px 100px 100px 500px;
+            padding: 0;
+            width: 400px;
+            height: 400px;
+            border:2px solid;
+            border-color:black;
+            background-color: aliceblue;
+        }
+
+        .anime {
+            width: 100px;
+            height: 100px;
+            margin:0px 0px 0px 5px;
+            background-color: #3498db;
+            display: flex;            
+            animation: moveRight 4s infinite ease-in-out;
+        }
+
+        @keyframes moveRight {
+            0% {transform: translateX(0)translateY(0); background-color: red;}
+            25% {transform: translateX(0%) translateY(250%);background-color:blue;}
+            50% {transform: translateX(250%) translateY(250%); background-color:green; }
+            75%{transform: translateX(250%); background-color: yellow;}
+            100%{transform:translateX(0%)translateY(0%); background-color:red;}
+        }
+           </style>
+</head>
+<body>
+    <div class="box">
+        <div class="anime"></div>
+    </div>
+</body>
+</html>

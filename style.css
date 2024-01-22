@@ -1,0 +1,13 @@
+ .home4{width: 700px;
+        height:500px;
+        padding: 15px 10px 20px 10px;
+        margin-bottom: 30px;
+   border: 2px;
+background-color:#0d5825}
+.styles{font-size:25px; color: aliceblue; text-align: center; margin-top: 50px;}
+img[class="img1"]{width:150px;position: absolute;top: 200px; left: 250px;rotate: -20deg;;} 
+img[class="img2"]{width:150px;position: absolute;top: 205px; left: 300px; rotate: -5deg;}
+img[class="img3"]{width:150px;position: absolute;top: 220px; left: 350px; rotate:10deg;}
+.img1:hover{transform: translateY(-20px); transition: transform 0.3s ease-in-out; }
+.img2:hover{transform: translateY(-20px); transition: transform 0.3s ease-in-out; }
+.img3:hover{transform: translateY(-20px); transition: transform 0.3s ease-in-out; }
